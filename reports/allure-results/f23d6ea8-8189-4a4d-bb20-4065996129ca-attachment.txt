@@ -1,0 +1,9 @@
+2026-03-09 14:57:04,310 - TestLogin - INFO - Launching browser and opening base URL...
+2026-03-09 14:57:55,722 - TestLogin - INFO - Starting invalid login test...
+2026-03-09 14:57:59,586 - LoginPage - INFO - Typed 'wronguser' into element: ('name', 'username')
+2026-03-09 14:57:59,780 - LoginPage - INFO - Typed 'wrongpass' into element: ('name', 'password')
+2026-03-09 14:58:01,597 - LoginPage - INFO - Clicked on element: ('xpath', "//button[@type='submit']")
+2026-03-09 14:58:02,693 - LoginPage - INFO - Element visible: ('xpath', "//p[contains(@class,'oxd-alert-content-text')]")
+2026-03-09 14:58:02,760 - LoginPage - INFO - Got text 'Invalid credentials' from element: ('xpath', "//p[contains(@class,'oxd-alert-content-text')]")
+2026-03-09 14:58:02,761 - TestLogin - INFO - Invalid login test passed with error message.
+2026-03-09 14:58:02,769 - TestLogin - INFO - Closing browser...

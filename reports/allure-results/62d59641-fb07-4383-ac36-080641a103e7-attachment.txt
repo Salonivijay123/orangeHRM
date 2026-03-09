@@ -1,0 +1,9 @@
+[32mINFO    [0m TestLogin:testbase.py:36 Launching browser and opening base URL...
+[32mINFO    [0m TestLogin:testcase.py:15 Starting invalid login test...
+[32mINFO    [0m LoginPage:base.py:28 Typed 'wronguser' into element: ('name', 'username')
+[32mINFO    [0m LoginPage:base.py:28 Typed 'wrongpass' into element: ('name', 'password')
+[32mINFO    [0m LoginPage:base.py:18 Clicked on element: ('xpath', "//button[@type='submit']")
+[32mINFO    [0m LoginPage:base.py:46 Element visible: ('xpath', "//p[contains(@class,'oxd-alert-content-text')]")
+[32mINFO    [0m LoginPage:base.py:37 Got text 'Invalid credentials' from element: ('xpath', "//p[contains(@class,'oxd-alert-content-text')]")
+[32mINFO    [0m TestLogin:testcase.py:20 Invalid login test passed with error message.
+[32mINFO    [0m TestLogin:testbase.py:43 Closing browser...

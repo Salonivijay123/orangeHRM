@@ -1,0 +1,8 @@
+2026-03-09 14:56:57,715 - LoginPage - INFO - Typed 'Admin' into element: ('name', 'username')
+2026-03-09 14:56:57,962 - LoginPage - INFO - Typed 'admin123' into element: ('name', 'password')
+2026-03-09 14:56:58,175 - LoginPage - INFO - Clicked on element: ('xpath', "//button[@type='submit']")
+2026-03-09 14:57:59,586 - LoginPage - INFO - Typed 'wronguser' into element: ('name', 'username')
+2026-03-09 14:57:59,780 - LoginPage - INFO - Typed 'wrongpass' into element: ('name', 'password')
+2026-03-09 14:58:01,597 - LoginPage - INFO - Clicked on element: ('xpath', "//button[@type='submit']")
+2026-03-09 14:58:02,693 - LoginPage - INFO - Element visible: ('xpath', "//p[contains(@class,'oxd-alert-content-text')]")
+2026-03-09 14:58:02,760 - LoginPage - INFO - Got text 'Invalid credentials' from element: ('xpath', "//p[contains(@class,'oxd-alert-content-text')]")
